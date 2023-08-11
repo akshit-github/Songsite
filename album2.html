@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Desi Crew</title>
+  <style>
+    /* CSS Styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #100101;
+    }
+
+    header {
+      background-color: #1ed711;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .album-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+
+    .album-header img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+
+    .album-info {
+      color: #888888;
+      flex-grow: 1;
+    }
+
+    .album-title {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .album-artist {
+      font-size: 18px;
+      color: #888888;
+    }
+
+    .song-list {
+      color: #fdfcfc;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .song-list-item {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      background-color: #0657f8;
+      border-radius: 5px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      margin-bottom: 10px;
+    }
+
+    .song-list-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .song-number {
+      font-size: 20px;
+      font-weight: bold;
+      margin-right: 10px;
+    }
+
+    .song-title {
+      flex-grow: 1;
+      font-size: 16px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Desi Crew</h1>
+  </header>
+  <div class="logo-container">
+    <img src="logo.jpg" alt="Logo">
+  </div>
+
+  <div class="container">
+    <div class="album-header">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLwpdF2YLuyg0UhnKJSEM9f1SZpF9LMM1Gyw&usqp=CAU"
+        alt="Album 1">
+      <div class="album-info">
+        <h2 class="album-title">Desi Crew</h2>
+        <p class="album-artist">Parmish Verma</p>
+      </div>
+    </div>
+
+    <ul class="song-list">
+      <li class="song-list-item">
+        <span class="song-number">1</span>
+        <span class="song-title">Rubicorn Drill</span>
+        <audio controls>
+
+          <source
+            src="https://www.pagalworld.com.se/siteuploads/files/sfd131/65037/Rubicon%20Drill(PagalWorld.com.se).mp3">
+
+        </audio>
+
+      </li>
+      <li class="song-list-item">
+        <span class="song-number">2</span>
+        <span class="song-title">No Reason</span>
+        <audio controls>
+
+          <source src="https://s320.djpunjab.is/data/48/53193/301358/No%20Reason%20-%20Parmish%20Verma.mp3">
+
+        </audio>
+
+      </li>
+      <li class="song-list-item">
+        <span class="song-number">3</span>
+        <span class="song-title">Aam Jehe Munde</span>
+        <audio controls>
+          <source src="https://cdn.pagalworld.us/songs/new/192/Aam%20Jahe%20Munde%20-%20Parmish%20Verma.mp3">
+        </audio>
+
+      </li>
+
+    </ul>
+  </div>
+</body>
+
+</html>
